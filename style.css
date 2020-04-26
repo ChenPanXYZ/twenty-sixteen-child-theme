@@ -1,0 +1,405 @@
+/* 
+Theme Name:		 My Twenty Sixteen
+Theme URI:		 https://www.chenpan.xyz/github/my-twentysixteen
+Description:	 My Twenty Sixteen is a child theme of Twenty Sixteen, created by Pan Chen.
+Author:			 Pan Chen
+Author URI:		 https://www.chenpan.xyz
+Template:		 twentysixteen
+Version:		 1.0.1
+Text Domain:	 my-twentysixteen
+*/
+
+ul, ol {
+    list-style-position: inside;
+	margin-left: 0px;
+}
+
+.wp-block-code {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: normal;
+    word-wrap: break-word;
+    line-height: 1.5;
+	  background: #f7f8f8;
+	  padding: 20px
+}
+
+code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.site-description {
+    display: block;
+	line-height: normal;
+}
+
+.custom-logo-link {
+	display: inline;
+}
+
+.custom-logo {
+	float: left;
+	max-width: 30px;
+	margin-right: 5px;
+}
+
+.site-title {
+	display: inline;
+}
+
+body #content .post .entry-content {
+    float: none;
+    width: 100%;
+}
+
+ .menu-item-has-children a:after,
+ .main-navigation a:before,
+ .menu-toggle:before,
+ .posted-on:before,
+ .entry-format:before,
+ .cat-links:before,
+ .tags-links:before,
+ .comments-link:before,
+ .edit-link:before,
+ .social-navigation a:before,
+ .dropdown-toggle:after,
+ .bypostauthor > article .fn:after,
+ .comment-reply-title small a:before,
+ .pagination .prev:before,
+ .pagination .next:before,
+ .pagination .nav-links:before,
+ .pagination .nav-links:after,
+ .search-submit:before{
+	 font-family: "icomoon";
+ }
+ 
+ .menu-toggle:before{
+	 content:"\e9bd";
+ }
+
+ .posted-on:before{
+	 content:"\e953";
+	 margin-right: 3px;
+ }
+
+ .entry-format:before{
+	 content:"\e925";
+	 margin-right: 3px;
+ }
+ 
+ .cat-links:before{
+	 content:"\e930";
+	 margin-right: 3px;
+ }
+ .tags-links:before{
+	 content:"\e935";
+	 margin-right: 3px;
+ }
+ .comments-link:before {
+	 content:"\e96b";
+	 margin-right: 3px;
+ }
+ 
+ .edit-link:before{
+	 content:"\e906";
+	 margin-right: 3px;
+ }
+ 
+
+ .search-submit:before {
+	content: "\e986";
+	font-size: 18px;
+	left: 2px;
+	line-height: 42px;
+	position: relative;
+	width: 40px;
+}
+
+.social-navigation a[href*="digg.com"]:before {
+	content: "\e903";
+}
+
+.social-navigation a[href*="dropbox.com"]:before {
+	content: "\eaae";
+}
+
+.social-navigation a[href*="facebook.com"]:before {
+	content: "\ea90";
+}
+
+.social-navigation a[href*="flickr.com"]:before {
+	content: "\eaa3";
+}
+
+.social-navigation a[href*="foursquare.com"]:before {
+	content: "\ead6";
+}
+
+.social-navigation a[href*="plus.google.com"]:before {
+	content: "\ea8b";
+}
+
+.social-navigation a[href*="github.com"]:before {
+	content: "\eab0";
+}
+
+.social-navigation a[href*="instagram.com"]:before {
+	content: "\ea92";
+}
+
+.social-navigation a[href*="linkedin.com"]:before {
+	content: "\eaca";
+}
+
+.social-navigation a[href*="pinterest.com"]:before {
+	content: "\ead2";
+}
+
+.social-navigation a[href*="getpocket.com"]:before {
+	content: "\e904";
+}
+
+.social-navigation a[href*="reddit.com"]:before {
+	content: "\eac6";
+}
+
+.social-navigation a[href*="skype.com"]:before {
+	content: "\eab9";
+}
+
+.social-navigation a[href*="stumbleupon.com"]:before {
+	content: "\eace";
+}
+
+.social-navigation a[href*="tumblr.com"]:before {
+	content: "\eab9";
+}
+
+.social-navigation a[href*="twitter.com"]:before {
+	content: "\ea94";
+}
+
+.social-navigation a[href*="vimeo.com"]:before {
+	content: "\eaa0";
+}
+
+.social-navigation a[href*="wordpress.com"]:before,
+.social-navigation a[href*="wordpress.org"]:before {
+	content: "\eab4";
+}
+
+.social-navigation a[href*="youtube.com"]:before {
+	content: "\ea9d";
+}
+
+.social-navigation a[href^="mailto:"]:before {
+	content: "\e945";
+}
+
+.social-navigation a[href*="spotify.com"]:before {
+	content: "\ea94";
+}
+
+.social-navigation a[href*="twitch.tv"]:before {
+	content: "\ea9f";
+}
+
+.social-navigation a[href$="/feed/"]:before {
+	content: "\ea9b";
+}
+
+.social-navigation a[href*="weibo.com"]:before {
+	content: "\ea9a";
+}
+
+.dropdown-toggle:after {
+	content: "\e900";
+}
+
+.dropdown-toggle.toggled-on:after {
+	content: "\e902";
+}
+
+.social-navigation a:before {
+	content: "\e9cd";
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 33px;
+}
+.pagination .nav-links:before {
+	content: "\ea3c";
+	right: -1px;
+}
+
+.pagination .nav-links:after {
+	content: "\ea40";
+	right: 55px;
+	font-size: 25px;
+}
+
+.pagination .prev:before {
+	content: "\ea40";
+	font-size: 25px;
+}
+
+.pagination .next:before {
+	content: "\ea3c";
+	font-size: 25px;
+}
+
+.image-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before,
+.comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
+	content: "\002f";
+}
+
+.menu-toggle:before{
+	content:"\e9bd";
+}
+
+.entry-footer > span:not(:last-child):after {
+	content: "\002f";
+}
+
+.bypostauthor > article .fn:after {
+	content: "\ea10";
+	font-size: 16px;
+	margin-left: 2px;
+}
+
+.comment-metadata .edit-link:before,
+.pingback .edit-link:before {
+	content: "\002f";
+}
+
+.comment-reply-title small a {
+	width: 32px;
+	height: 32px;
+}
+
+.comment-reply-title small a:before {
+	content: "\ea0d";
+	font-size: 25px;
+	position: relative;
+	top: 0px;
+	right: 3.5px;
+	left: 3.2px;
+}
+
+.site-footer .site-title:after {
+	content: "\002f";
+}
+
+.site-footer span[role=separator]::before {
+	content: '\002f';
+}
+
+#menu-toggle {
+	font-size: 0px;
+	height: 34px;
+	width: 34px;
+}
+
+.menu-toggle:before{
+	font-size: 13px;
+}
+body:not(.search-results) article:not(.type-page) .entry-footer .avatar {
+    display: inline-block;
+    height: auto;
+    width: 20px;
+	margin-right: 3px;
+}
+
+.entry-content blockquote:not(.alignleft):not(.alignright), .entry-summary blockquote, .comment-content blockquote {
+    margin-left: 0;
+}
+
+
+.admin-bar .sticky-nav {
+	top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+	.admin-bar .sticky-nav {
+	  top: 46px;
+	}
+}
+
+@media only screen and (max-width: 909px){
+    body #content .post .entry-content {
+        float: none;
+        margin: 0 7.6923%;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 56.875em) {
+	.no-sidebar .entry-header, .no-sidebar .entry-content, .no-sidebar .entry-summary, .no-sidebar .entry-footer, .no-sidebar .comments-area, .no-sidebar .image-navigation, .no-sidebar .post-navigation, .no-sidebar .pagination, .no-sidebar .page-header, .no-sidebar .page-content, .no-sidebar .content-bottom-widgets {
+		margin-right: 15%;
+		margin-left: 0;
+	}
+	body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
+		float: left;
+		margin-right: 0px;
+		margin-left: 0;
+		width: 50.00000001%;
+	}
+	
+	body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
+		margin-right: -100%;
+		margin-left: 0;
+		width: 15%;
+	}
+	#site-header-menu-search-form {
+		display: none;
+	}
+
+	.sticky-nav {
+		width: 100%;
+		position:fixed; 
+		top: 0px; 
+		left: 0px;
+		margin: 0 0;
+		z-index: 99990; 
+		opacity: 0.95;
+		background-color: #fbf0d9;
+		text-align: center;
+		line-height: normal;
+	}
+
+	.main-navigation ul ul {
+		margin-top: 4px;
+		background-color: #fbf0d9;
+	}
+	
+	.sticky-nav.main-navigation ul ul li {
+		background-color: #fbf0d9;
+	}
+
+	.sticky-nav > :first-child {
+		display: inline-block;
+		margin: 0 auto;
+		float: none;
+		border: 0px;
+		background: none;
+		max-width: 100%;
+		text-align: left;
+	}
+
+	.main-navigation .menu-item-has-children > a:after {
+		content: "\e900";
+	}
+
+	body:not(.search-results) article:not(.type-page) .entry-footer {
+		margin-top:20px;
+		padding-top:10px;
+		border-top:1px solid #efefef;
+		width:100%;
+	}
+}
